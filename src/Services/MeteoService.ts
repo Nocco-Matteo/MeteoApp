@@ -15,7 +15,6 @@ export const getMeteoData = (city: string): Promise<void | Badge> => {
         .then((res) => {
             const currUtcDate = new Date().getTime();
             const localTime = new Date(currUtcDate + res.timezone_offset * 1000);
-            console.log(res);
             
             const badge: Badge = {
                 city: capitalizeFirstLetter(city),
