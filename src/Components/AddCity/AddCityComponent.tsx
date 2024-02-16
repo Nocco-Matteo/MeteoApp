@@ -9,8 +9,6 @@ const AddCityComponent = ({onAddCity} : AddCityProps): React.JSX.Element => {
     const [isModalVisible, setModalVisible] = useState(false);
 
     const openAddCityModal = (): void => {
-        console.log("openAddCityModal");
-        
         setModalVisible(true)
     }
 
