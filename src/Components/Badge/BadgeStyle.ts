@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { SECONDARY_COLOR } from "../../Configs/MeteoConfig";
 
 export const styles = StyleSheet.create({
     wrapper: {
@@ -8,7 +9,8 @@ export const styles = StyleSheet.create({
         borderColor: 'black',
         borderWidth: 1,
         borderRadius: 10,
-        marginVertical: 10,
+        margin: 10,
+        backgroundColor: SECONDARY_COLOR,
     },
     column: {
         flex: 1,

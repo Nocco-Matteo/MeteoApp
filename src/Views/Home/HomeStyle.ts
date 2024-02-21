@@ -1,10 +1,11 @@
 import { StyleSheet } from "react-native";
-import { TEXT_COLOR } from "../../Configs/MeteoConfig";
+import { PRIMARY_COLOR, TEXT_COLOR } from "../../Configs/MeteoConfig";
 
 
 export const styles = StyleSheet.create({
     wrapper: {
         flex: 1,
+        backgroundColor: PRIMARY_COLOR,
     },
     header: {
         height: 70,

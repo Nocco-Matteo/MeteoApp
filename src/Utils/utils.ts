@@ -1,6 +1,6 @@
 
 export const fromKelvinToCelsius = (kelvin: number): number => {
-    return parseFloat((kelvin - 273.15).toFixed(1));
+    return parseFloat((kelvin - 273.15).toFixed(0));
 }
 
 export const capitalizeFirstLetter = (string : string) => {
